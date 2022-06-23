@@ -1,0 +1,61 @@
+@media only screen and (max-width: 992px) {
+  .is {
+    padding-top: 250px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  p {
+    line-height: 1.4;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.8em;
+  }
+
+  .section {
+    padding: 50px 0 0px;
+  }
+
+  .section .education {
+    margin-bottom: 30px;
+  }
+
+  .is {
+    padding-top: 50px;
+  }
+
+  .education-wr:after,
+  .education-wr .education:after {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 260px) {
+  .intro .profile-img {
+    width: 80%;
+    height: auto;
+    top: 0;
+    margin-bottom: 10px;
+  }
+
+  .intro {
+    padding: 20px 10px 0;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
