@@ -426,3 +426,16 @@ b.max-bold {
 }
 
 /*Scroll Button*/
+
+.description {
+  text-align: center;
+  max-width: 40.5em;
+  color: #cfdbe6;
+  font-size: 1em;
+}
+
+@media (max-width: 768px) {
+  .description {
+    text-align: center;
+  }
+}
